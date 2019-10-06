@@ -22,7 +22,6 @@ public class UserController {
         user.setPwd(userPwd);
         user.setAge(userAge);
         System.out.println(user);
-        //userService.register(user);
         return "registerSuccess";
     }
 }
